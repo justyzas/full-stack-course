@@ -1,0 +1,29 @@
+body {
+	margin: 0;
+}
+.box {
+	width: 400px;
+	height: 400px;
+	background-color: bisque;
+	/* margin-bottom: 20px;
+	margin-left: 20px; */
+	/* margin: 0px 0px 0px 0px;  */
+	/* margin: 10px; */
+	/* virsus-apacia, kaire-desine */
+	/* margin - išorinė paraštė */
+	margin: 10px 20px;
+	/* padding - vidinė paraštė */
+	padding: 20px;
+	display: flex;
+	/* Horizontalus pozicionavimas */
+	/* start, center, end, space-between, space-around */
+	justify-content: space-around;
+	/* Vertikalus pozicionavimas */
+	align-items: space-around;
+}
+
+.small-box {
+	background-color: blue;
+	width: 100px;
+	height: 100px;
+}
