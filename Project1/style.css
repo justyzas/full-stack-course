@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+}
+
+.topRow {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: rgb(28, 28, 28);
+  margin: 0;
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.topButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topButtons button {
+  background: none;
+  border: none;
+  margin-left: 10px;
+  font-size: 22px;
+  color: rgb(128, 128, 128);
+}
+
+.topButtons button:hover {
+  color: rgb(255, 255, 255);
+}
+
+.topSearchRow button {
+  border-radius: 7px;
+  height: 40px;
+  width: 85px;
+}
+
+.topSearchRow input {
+  border-radius: 7px;
+  height: 34px;
+  width: 170px;
+}
+
+.firstField {
+  background-color: rgb(106, 206, 73);
+  margin: 0;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(198, 255, 200);
+}
+
+.firstField button {
+  background: rgb(80, 163, 222);
+  font-size: 18px;
+  border-radius: 7px;
+  color: aliceblue;
+  border: 40px;
+  size: 120%;
+}
+
+.secondField {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 75%;
+  margin: 0 auto;
+}
+
+image {
+  /*width: 100%;*/
+  width: fit-content;
+}
+
+.imageFields {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.thirdField {
+  background-color: rgb(204, 170, 59);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.thirdField div {
+  margin: 60px;
+}
