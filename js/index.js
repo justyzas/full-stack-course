@@ -1,5 +1,4 @@
 // var let const
-// var
 let number = 5;
 let tekstas = "tekstas";
 let boolean = true;
@@ -22,4 +21,4 @@ const objektas = {
 
 objektas.money.cooper = "Jonas";
 
-console.log(objektas);
+// console.log(objektas);
